@@ -1,0 +1,138 @@
+body {
+    background-color: #ffffff;
+    color: #333;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.8px;
+
+}
+
+h1, h2, h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+}
+
+.basket-icon {
+    font-size: 1.2rem;
+}
+
+.basket-items {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.basket-item {
+        display: flex    ;
+        align-items: center;
+        margin: 1rem 0;
+        background: #FAFAF5;
+        /* border-radius: 24px; */
+        width: 740px;
+        height: 119px;
+        /* top: 35px; */
+        /* left: 30px; */
+        border-radius: 24px;
+        border: 2px solid #fafaf5;
+    }
+
+.basket-item:last-child {
+    border-bottom: none;
+}
+
+.basket-item-image {
+    width: 160px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-right: 1rem;
+    border-radius: 24px 0px 0px 24px;
+}
+
+.basket-item-details {
+    flex-grow: 1;
+}
+
+.basket-item-details h3 {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.basket-item-price-p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    color: #426B1F;
+}
+
+.basket-item-price {
+    margin-right: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+
+.order-summary {
+    background-color: #FAFAF5;
+    border-radius: 8px;
+    padding: 1.5rem;
+    border-radius: 24px;
+}
+
+.order-summary h2 {
+    margin-bottom: 1rem;
+}
+
+.summary-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.summary-item.total {
+    font-weight: 500;
+    border-top: 1px solid #eee;
+    padding-top: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.btn-primary {
+    background-color: #4a7c59;
+    border-color: #4a7c59;
+    margin-top: 1rem;
+}
+
+.btn-primary:hover {
+    background-color: #3a6349;
+    border-color: #3a6349;
+}
+
+@media (max-width: 991px) {
+    .order-summary {
+        margin-top: 1rem;
+    }
+}
+
